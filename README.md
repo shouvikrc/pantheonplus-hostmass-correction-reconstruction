@@ -55,8 +55,7 @@ and
 ```
 
 The redshift is therefore the cosmic-microwave-background-frame column `zCMB`,
-including the lower bound at 0.01. Raising the upper boundary to 0.151 would
-give 715 rather than 713 rows and does not reproduce the published count.
+including the lower bound at 0.01. 
 
 For all 713 selected rows, the script fits `biasCor_m_b` as a function of the
 SALT color parameter `c` separately below and above the host-mass step at
@@ -126,7 +125,7 @@ The post-generation comparison found:
 
 Thus, the correction is independently reproduced to floating-point precision.
 This repository's file deliberately retains the official CIDs from the public
-Pantheon+ table. Relative to one supplied Hoyt file, the only label differences
+Pantheon+ table. Relative to one supplied by Taylor Hoyt, the only label differences
 are:
 
 | Public CID retained here | CID in that supplied file |
@@ -135,11 +134,6 @@ are:
 | `2005df_ANU` | `2005df` |
 | `2008fv_comb` | `2008fv` |
 
-A second supplied comparison file using the official CIDs has no CID
-differences. Text formatting also differs because this reconstruction preserves
-every unchanged public row verbatim, whereas the supplied table normalized some
-integer-valued floating-point fields. These formatting differences do not alter
-the parsed numerical data.
 
 ## Licensing
 
