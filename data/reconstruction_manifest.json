@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "builder_version": "1.0.0",
+  "method_reference": "Hoyt et al. 2026, arXiv:2601.19424, Appendix F",
+  "method": {
+    "low_redshift_selection": "0.01 <= zCMB < 0.15",
+    "mass_step": "HOST_LOGMASS = 10.0",
+    "corrected_host_selection": "9.4 <= HOST_LOGMASS < 10.0",
+    "curve_fit": "separate unweighted numpy.polyfit degree-3 fits",
+    "update": "m_b_corr_new = m_b_corr_public + low_mass_curve(c) - high_mass_curve(c)"
+  },
+  "files": {
+    "input": {
+      "path": "data/Pantheon+SH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    "output": {
+      "path": "data/Pantheon+SH0ES_HostMassCorrected_Reconstructed.dat",
+      "sha256": "9e17f8d5b8188016eda0ded6a9e080f94263eb2ea1457d764934084137574b13"
+    },
+    "audit": {
+      "path": "data/reconstruction_audit.csv"
+    }
+  },
+  "counts": {
+    "all_rows": 1701,
+    "low_redshift_rows": 713,
+    "low_mass_fit_rows": 317,
+    "high_mass_fit_rows": 396,
+    "corrected_rows": 114
+  },
+  "coefficients_descending_power": {
+    "low_mass": [
+      -7.742370028740646,
+      2.5299726642359777,
+      0.04312375929434872,
+      0.015785729452505965
+    ],
+    "high_mass": [
+      -5.413232590260081,
+      1.1054444078706187,
+      -0.5558723397298307,
+      -0.04757861738529856
+    ],
+    "low_minus_high": [
+      -2.329137438480565,
+      1.424528256365359,
+      0.5989960990241795,
+      0.06336434683780452
+    ]
+  },
+  "correction_mag": {
+    "mean_over_114_corrected_rows": 0.07220464502818282,
+    "median_over_114_corrected_rows": 0.05291405905358854,
+    "minimum": 0.013411784108337738,
+    "maximum": 0.2864821312709293,
+    "sum_divided_by_713_low_redshift_rows": 0.011544641701560788
+  },
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3"
+  }
+}
