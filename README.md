@@ -5,6 +5,8 @@ magnitudes described in Appendix F of Hoyt et al. (2026). The reconstruction
 uses only the public Pantheon+ table and does not read, copy, or require a
 privately supplied corrected file.
 
+The corrected data file can be used to verify the results in [arXiv: 2607.24443](https://arxiv.org/abs/2607.24443).
+
 ## Contents
 
 ```text
@@ -37,7 +39,8 @@ authorship of the underlying Pantheon+ data or of the correction method.
 The public Pantheon+ data documentation identifies the associated Pantheon+
 analysis as [arXiv:2202.04077](https://arxiv.org/abs/2202.04077) and the SH0ES
 analysis as [arXiv:2112.04510](https://arxiv.org/abs/2112.04510). These works and
-Hoyt et al. should be cited when using the reconstructed table.
+Hoyt et al. 2026 [arXiv:2601.19424](https://arxiv.org/abs/2601.19424)  and Roy Choudhury 2026 [arXiv: 2607.24443](https://arxiv.org/abs/2607.24443).
+should be cited when using the reconstructed table.
 
 ## Reconstruction
 
