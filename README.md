@@ -112,9 +112,7 @@ shasum -a 256 -c checksums.sha256
 
 ## Comparison with the supplied Hoyt table
 
-The reconstructed file was generated and hashed before it was compared with
-the privately supplied Hoyt table. That table is not included here and is not
-an input to the script.
+The reconstruction script does not read or use the privately supplied Hoyt table. A separate numerical comparison was used only to validate the public-input reconstruction; the supplied table is not included in this repository and is not an input to the builder.
 
 The post-generation comparison found:
 
