@@ -138,7 +138,9 @@ are:
 
 ## Licensing
 
-The reconstruction code is released under the terms in `LICENSE-CODE`. The
-upstream Pantheon+ repository does not currently display an explicit data
-license; see `NOTICE.md`. The derived table must retain attribution to both the
+The independently created correction data, reconstruction software, metadata,
+validation products, and documentation are released under CC BY 4.0; see
+`LICENSE`. The external public Pantheon+ input retains its original ownership
+and terms; see `NOTICE.md`. The associated Zenodo deposit does not redistribute
+that external input. The derived table must retain attribution to both the
 Pantheon+ source data and the Hoyt et al. correction method.
