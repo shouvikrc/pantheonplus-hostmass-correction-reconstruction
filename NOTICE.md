@@ -17,9 +17,9 @@ the ownership or terms of the upstream data. Users should retain the original
 attribution, cite the Pantheon+ and SH0ES papers identified in the upstream
 README, and confirm any redistribution requirements relevant to their use.
 
-`data/Pantheon+SH0ES_HostMassCorrected_Reconstructed.dat` is a deterministic
-derived product generated locally from that public table by
-`scripts/build_corrected_pantheonplus.py`. The scientific correction procedure
-was introduced by Hoyt et al. (2026), arXiv:2601.19424, Appendix F, and must be
-cited when the derived table is used. This repository does not contain a
-privately supplied Hoyt et al. table.
+`data/Pantheon+SH0ES_HostMassCorrected_Reconstructed.dat` is generated from
+that public table by `scripts/build_corrected_pantheonplus.py`, following the
+correction introduced by Hoyt et al. (2026), arXiv:2601.19424, Appendix F. The
+correction is Hoyt et al.'s; its authoritative release is
+https://github.com/tjhoyt/panplus_CorrectedLowZ, and Hoyt et al. (2026) must be
+cited when the table is used.
