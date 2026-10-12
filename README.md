@@ -1,4 +1,4 @@
-# Reproduction of the Hoyt et al. (2026) Pantheon+ host-mass correction
+# Reproduction of the Hoyt et al. (2026, [arXiv:2601.19424](https://arxiv.org/abs/2601.19424)) Pantheon+ host-mass correction
 
 **The authoritative release of the corrected Pantheon+ data and code is
 maintained by Taylor Hoyt (Hoyt et al. 2026):
