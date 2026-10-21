@@ -1,0 +1,6 @@
+# Reconstruction outputs are local only; obtain released corrections from Hoyt et al.
+/data/Pantheon+SH0ES_HostMassCorrected_Reconstructed.dat
+/data/reconstruction_audit.csv
+/data/reconstruction_manifest.json
+/.venv/
+__pycache__/
